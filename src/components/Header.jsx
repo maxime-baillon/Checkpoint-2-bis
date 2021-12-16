@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = ({ nameSite }) => {
-  nameSite = 'Football Club';
+  nameSite = 'hello';
   return (
     <div className="header">
       <h1>Bienvenue sur{nameSite}</h1>
