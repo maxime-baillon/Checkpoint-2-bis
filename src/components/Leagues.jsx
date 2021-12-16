@@ -4,7 +4,8 @@ import League from './League';
 
 const Leagues = () => {
   const [equipes, setEquipes] = useState([]);
-  const [filtre, setFilre] = useState(false);
+  const [filtre, setFiltre] = useState(false);
+
   useEffect(() => {
     axios
       .get('https://api-football-standings.azharimm.site/leagues')
