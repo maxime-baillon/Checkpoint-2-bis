@@ -17,7 +17,7 @@ const Leagues = () => {
     <>
       <div className="leagues">
         {equipes
-          //.filter((uneEquipe) => uneEquipe.name.includes('PREMIERE'))
+          // .filter((uneEquipe) => uneEquipe.name.includes('PREMIERE'))
           .map((equipe) => (
             <League uneEquipe={equipe} key={equipe.id} />
           ))}
